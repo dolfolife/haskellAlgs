@@ -1,0 +1,21 @@
+Name:                algorithms
+Version:             0.1
+Synopsis:            Algorithm codes in Haskell
+Description:         Implementations of well known algoritms in Haskell
+License:             AllRightsReserved
+Author:              Rodolfo Sanchez
+Maintainer:          rodolfo2488@gmail.com
+Stability:           Experimental
+Category:            Algorithms
+Build-type:          Simple
+Cabal-version:       >=1.2
+
+Executable algorithms
+  hs-source-dirs: src, spec
+  main-is: Main.hs
+
+  build-depends:
+    base,
+    array,
+    QuickCheck,
+    hspec
