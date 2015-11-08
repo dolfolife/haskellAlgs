@@ -24,4 +24,5 @@ Executable algorithms
     base,
     array,
     QuickCheck,
+    fgl,
     hspec
