@@ -1,13 +1,13 @@
 
-module Test(test) where
+module SortingTest(sortingTest) where
 
 import Test.Hspec
 import Test.QuickCheck
 import Control.Exception (evaluate)
 import ShellSort
 
-test :: IO ()
-test = hspec $ do
+sortingTest :: IO ()
+sortingTest = hspec $ do
   describe "ShellSort" $ do
     it "return empty list if passed an empty list" $ do
       shellSort [] `shouldBe` ([] :: [Int])

@@ -6,10 +6,13 @@ module Main where
 import           System.IO
 import           System.Environment
 import           ShellSort
-import           Test
+import           Fibonacci
+import           SortingTest
+import           SequenceTest
 
 main :: IO ()
 
 main = do
-  test
+  sortingTest
+  sequenceTest
 
