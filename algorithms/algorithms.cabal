@@ -11,7 +11,13 @@ Build-type:          Simple
 Cabal-version:       >=1.2
 
 Executable algorithms
-  hs-source-dirs: src, spec
+  hs-source-dirs:
+    src,
+    src/sorting,
+    src/sequence,
+    spec/sorting,
+    spec/sequence
+
   main-is: Main.hs
 
   build-depends:
